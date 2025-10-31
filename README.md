@@ -21,8 +21,6 @@ Predict Titanic passenger survival using machine learning models and a FastAPI w
 ### Install dependencies
 pip install fastapi scikit-learn pandas numpy joblib uvicorn
 
-text
-
 ## Usage
 
 ### 1. Train and Save Model
@@ -30,8 +28,6 @@ Train your models and save the best one as `titaniclogisticregressionmodel.pkl`.
 
 ### 2. Run API Service
 uvicorn app:app --reload
-
-text
 
 ### 3. Send Prediction Request
 Send a POST request to `/predict` with the following sample payload:
@@ -52,7 +48,6 @@ Send a POST request to `/predict` with the following sample payload:
 "Emb3": 0
 }
 
-text
 
 ## Model Evaluation
 
